@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "Link shortener"
+version = "0.1.0"
+description = "Pet-project with fastapi"
+authors = ["Alexander Stepanov"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.68.0"
+environs = "^9.3.3"
+tortoise-orm = {extras = ["asyncpg"], version = "^0.17.6"}
+
+[tool.poetry.dev-dependencies]
+uvicorn = {extras = ["standart"], version = "^0.15.0"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

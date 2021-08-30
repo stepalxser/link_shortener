@@ -1,0 +1,1 @@
+Fastapi /docs in available after startup.
