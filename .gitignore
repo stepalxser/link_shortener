@@ -1,5 +1,6 @@
-.idea
+.idea/
 __pycache__/
-.venv
+.venv/
 .env
 test.py
+.git/
